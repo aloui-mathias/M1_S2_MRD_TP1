@@ -1,0 +1,30 @@
+WARNING: for repeatability, setting FPU to use double precision
+============================[ Problem Statistics ]=============================
+|                                                                             |
+|  Number of variables:           129                                         |
+|  Number of clauses:            1495                                         |
+|  Parse time:                   0.00 s                                       |
+|  Eliminated clauses:           0.00 Mb                                      |
+|  Simplification time:          0.00 s                                       |
+|                                                                             |
+============================[ Search Statistics ]==============================
+| Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+|           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+===============================================================================
+|       100 |      86     1366     5378 |      500      100     14 |  0.006 % |
+|       250 |      86     1366     5378 |      550      250     12 |  0.006 % |
+|       475 |      86     1366     5378 |      606      475     11 |  0.006 % |
+|       812 |      86     1366     5378 |      666      504      9 |  0.006 % |
+|      1318 |      86     1366     5378 |      733      670      9 |  0.006 % |
+|      2077 |      86     1366     5378 |      806      679      8 |  0.006 % |
+|      3216 |      86     1366     5378 |      887      598      8 |  0.036 % |
+===============================================================================
+restarts              : 22
+conflicts             : 4028           (125632 /sec)
+decisions             : 4738           (0.00 % random) (147776 /sec)
+propagations          : 50063          (1561443 /sec)
+conflict literals     : 33717          (21.67 % deleted)
+Memory used           : 11.00 MB
+CPU time              : 0.032062 s
+
+UNSATISFIABLE

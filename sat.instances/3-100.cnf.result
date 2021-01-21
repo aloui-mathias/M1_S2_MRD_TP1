@@ -1,0 +1,31 @@
+WARNING: for repeatability, setting FPU to use double precision
+============================[ Problem Statistics ]=============================
+|                                                                             |
+|  Number of variables:           300                                         |
+|  Number of clauses:            7750                                         |
+|  Parse time:                   0.01 s                                       |
+|  Eliminated clauses:           0.00 Mb                                      |
+|  Simplification time:          0.02 s                                       |
+|                                                                             |
+============================[ Search Statistics ]==============================
+| Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+|           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+===============================================================================
+|       100 |     200     7450    29600 |     2731      100     15 |  0.001 % |
+|       250 |     200     7450    29600 |     3004      250     12 |  0.002 % |
+|       475 |     200     7450    29600 |     3305      475     11 |  0.002 % |
+|       812 |     200     7450    29600 |     3635      812     10 |  0.001 % |
+|      1318 |     200     7450    29600 |     3999     1318     10 |  0.002 % |
+|      2077 |     200     7450    29600 |     4399     2077     10 |  0.001 % |
+|      3216 |     200     7450    29600 |     4839     3216      9 |  0.001 % |
+|      4924 |     200     7450    29600 |     5323     2495      8 |  0.009 % |
+===============================================================================
+restarts              : 29
+conflicts             : 5557           (78621 /sec)
+decisions             : 6647           (0.00 % random) (94042 /sec)
+propagations          : 74323          (1051527 /sec)
+conflict literals     : 48497          (22.32 % deleted)
+Memory used           : 12.00 MB
+CPU time              : 0.070681 s
+
+UNSATISFIABLE
